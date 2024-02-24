@@ -1,16 +1,16 @@
-# flutter_lottie_tutorial
+# Flutter Lottie Tutorial
 
-A new Flutter project.
+This repo demonstrates the basics of using Lottie animations in Flutter.
+
+Topics covered:
+- Loading Lottie animations in JSON
+- Loading Lottie animations in .lottie
+- Setting up custom controls on the animation so that
+    - The animation can be stopped by clicking.
+    - The animation can play forward and backward.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Please read the article here: [link to come].
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+You can clone the repository and launch the Flutter app with any targets. I recommend Android.
