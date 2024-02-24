@@ -11,7 +11,7 @@ Topics covered:
 
 ## Getting Started
 
-Please read the article here: [link to come].
+Please read the article [here](https://songyang.hashnode.dev/how-to-use-lottie-animations-in-flutter).
 
 You can clone the repository and launch the Flutter app with any targets. I recommend Android.
 
