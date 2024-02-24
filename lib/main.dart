@@ -25,8 +25,8 @@ class LottieExampleApp extends StatelessWidget {
               DotLottieLoader.fromAsset(
                 "assets/animations/Pyramid.lottie",
                 frameBuilder: (BuildContext context, DotLottie? dotlottie) {
+                  // check whether the animation has been loaded
                   if (dotlottie != null) {
-                    // check whether the animation has been loaded
                     return Lottie.memory(dotlottie.animations.values.single);
                   } else {
                     // what to render while it is loading
