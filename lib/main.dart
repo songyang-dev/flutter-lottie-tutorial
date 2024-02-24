@@ -1,3 +1,4 @@
+import 'package:dotlottie_loader/dotlottie_loader.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
@@ -12,7 +13,18 @@ class LottieExampleApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Lottie.asset('assets/animations/Pyramid.json'),
+        body: DotLottieLoader.fromAsset(
+          "assets/animations/Pyramid.lottie",
+          frameBuilder: (BuildContext context, DotLottie? dotlottie) {
+            if (dotlottie != null) {
+              // check whether the animation has been loaded
+              return Lottie.memory(dotlottie.animations.values.single);
+            } else {
+              // what to render while it is loading
+              return Container();
+            }
+          },
+        ),
       ),
     );
   }
