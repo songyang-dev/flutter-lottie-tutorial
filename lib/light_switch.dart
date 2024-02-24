@@ -1,3 +1,6 @@
+// MIT License
+// Copyright (c) 2024 Song Yang
+
 import 'package:dotlottie_loader/dotlottie_loader.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';

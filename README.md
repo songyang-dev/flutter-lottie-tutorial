@@ -14,3 +14,7 @@ Topics covered:
 Please read the article here: [link to come].
 
 You can clone the repository and launch the Flutter app with any targets. I recommend Android.
+
+Copyright (c) 2024 Song Yang
+
+MIT License
